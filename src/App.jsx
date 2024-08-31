@@ -1,6 +1,6 @@
 import AppCounter from "./components/AppCounter";
 import AppCounterWithStore from "./components/AppCounterWithStore";
-import withLogger from "./hocs/WithLogger";
+import withLogger from "./hocs/withLogger";
 import useCounter from "./hooks/use-counter";
 
 const AppCounterWithLogger = withLogger(AppCounter);
